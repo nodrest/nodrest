@@ -29,3 +29,9 @@ curl -D- -X GET -H "Authorization: Basic ZnJlZDpmcmVk" -H "Content-Type: applica
 Authentication challenge
 
 Some http client software expects to receive an authentication challenge before it will send an authorization header and this may mean that it may not behave as expected. In this case you may need to configure it to supply the authorization header as described above rather than relying on its default mechanism.
+
+OAuth2.0的令牌获取
+
+```bash
+curl -D- -X POST -H "grant-types:client_credentials" -H "token-types:bearer" http://localhost:9999/token
+```
