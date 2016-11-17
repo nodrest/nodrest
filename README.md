@@ -1,5 +1,7 @@
 # nodrest[node rest],没头
 
+[![Join the chat at https://gitter.im/nodrest/nodrest](https://badges.gitter.im/nodrest/nodrest.svg)](https://gitter.im/nodrest/nodrest?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 知识和生活没有头
 
